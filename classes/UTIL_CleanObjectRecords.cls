@@ -1,6 +1,5 @@
 /*
-* Connor Huglin 2022/11/23: https://dev.azure.com/infinitas/Converse/_boards/board/t/Order%20to%20Cash/Backlog%20items/?workitem=185828
-* Functionality to remove records older than 3 months
+* Connor Huglin 2022/11/23: Functionality to remove records older than 3 months
 */
 global class UTIL_CleanObjectRecords implements Database.Batchable<sObject>, Database.Stateful {
     private Objects_to_Clean__mdt mdtObject;
