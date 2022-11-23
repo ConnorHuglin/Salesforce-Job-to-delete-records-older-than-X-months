@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AutomationOfDataCleanUp</fullName>
+    <types>
+        <members>UTIL_CleanObjectRecords</members>
+        <members>UTIL_CleanObjectRecordsScheduleable</members>
+        <members>UTIL_CleanObjectRecords_TEST</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Objects_to_Clean__mdt.MonthsDataShouldGoBack__c</members>
+        <members>Objects_to_Clean__mdt.ObjectAPIName__c</members>
+        <members>SummaryofObjectsCleaned__c.CountofRecordsDeleted__c</members>
+        <members>SummaryofObjectsCleaned__c.ObjectAPIName__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Objects_to_Clean__mdt</members>
+        <members>SummaryofObjectsCleaned__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Objects_to_Clean__mdt-Objects to Clean Layout</members>
+        <members>SummaryofObjectsCleaned__c-Summary of Objects Cleaned Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>56.0</version>
+</Package>
